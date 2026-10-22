@@ -9,4 +9,5 @@ module.exports = {
     '!**/*.d.ts',
   ],
   coverageDirectory: 'coverage',
+  coverageReporters: ['json', 'lcov', 'text', 'clover', 'json-summary']
 };
